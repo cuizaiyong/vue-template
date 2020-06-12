@@ -1,6 +1,12 @@
 <template>
   <div>
-    <h1>{{ time }}</h1>
+    <p>Project name: <%= name %></p>
+    <p>Description: <%= description %></p>
+    <p>Author: <%= author %></p>
+    <p>Language: <%= language %></p>
+    <p>Framework: <%= framework %></p>
+    <p>Islint: <%= isLint %></p>
+    <h1>当前时间：{{ time }}</h1>
   </div>
 </template>
 <script>
