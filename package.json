@@ -1,13 +1,12 @@
 {
-  "name": "vue-template",
+  "name": "<%= name %>",
   "version": "0.0.1",
-  "description": "Vue.js scaffolding template.",
-  "main": "index.js",
-  "repository": "https://github.com/cuizaiyong/vue-template.git",
-  "author": "CuveeCui <18280133086@163.com>",
+  "description": "<%= description %>",
+  "main": "src/main.js",
+  "author": "<%= author %>",
   "license": "MIT",
   "keywords": [
-    "template",
+    "cuvee-scaffolding",
     "vue"
   ],
   "scripts": {
